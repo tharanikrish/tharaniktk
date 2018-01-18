@@ -1,8 +1,8 @@
 #include<stdio.h>
-Void main()
+int main()
   {
   int a,b,c;
-  Scanf("%d %d %d",&a,&b,&c);
+  scanf("%d %d %d",&a,&b,&c);
   if((a>b)&&(a>c))
     printf("%d",a);
   if((b>a)&&(b>c))

@@ -9,6 +9,7 @@ x[i]=i;
 }
 for(i=1;i<=b;i++)
 {
-c=c+i;}
+c=c+i;
+}
 printf("%d",c);
 }

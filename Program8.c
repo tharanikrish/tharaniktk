@@ -6,7 +6,7 @@ scanf("%d",&a);
 for(i=0;i<=a;i++)
 {
 c=c+i;
-  printf("%d",a);
 }
-return 0;
+  printf("%d",c);
 }
+

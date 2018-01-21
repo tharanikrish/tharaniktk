@@ -13,7 +13,7 @@ n/=10;
 }
 if(original_integer==reversed_integer)
 {
-printf("the number is palindrome\n");}
+printf("YES");}
 else
-printf("the number is not a palindrome");
+printf("NO");
 }

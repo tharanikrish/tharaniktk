@@ -9,5 +9,5 @@ for(i=a;i<b;i++)
 if(i%2==0)
 {
 c=i;
-printf("%d ",i);
+printf("%d ",c);
 }}}

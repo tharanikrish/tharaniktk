@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	int num,a,i;
-	printf("\n enter a number");
-	scanf("%d",&num);
-	for(i=1;i<=num;i++)
+	int a,b,c;
+	printf("enter a number:\n");
+	scanf("%d",&b);
+	for(a=1;a<=b;a++)
 	{
-	
+	c=5*a;
+	printf("%d ",c);
 	}
 	return 0;
 }

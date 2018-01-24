@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
 	int a,b,i,t,n,rem;
@@ -17,7 +16,6 @@ int main()
 	}
 	if(i==n)
 	printf("%d",i);
-	}
-		
+	}		
 	return 0;
 }

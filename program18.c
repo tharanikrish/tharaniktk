@@ -3,7 +3,7 @@ int main()
 {
 	int a,b,i,t,n,rem;
 	scanf("%d%d",&a,&b);
-	printf("%d%d",a,b);
+	printf("inputs %d %d \n",a,b);
 	for(i=a+1;i<b;i++)
 	{
 	t=i;
@@ -15,7 +15,7 @@ int main()
 	t=t/10;
 	}
 	if(i==n)
-	printf("%d",i);
+	printf("output %d",i);
 	}		
 	return 0;
 }

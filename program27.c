@@ -1,11 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-int a;
-printf("\n enter the string:");
-scanf("%d",&a);
-if(-10000<a<10000)
-printf("\nYES");
-else
-printf("\nNO);
+	char a;
+  printf("\n enter the string:");
+	scanf("%c",&a);
+	if('0'<=a && a<='9')
+	printf("\nYes");
+	else
+	printf("\nNo");
+	return 0;
 }

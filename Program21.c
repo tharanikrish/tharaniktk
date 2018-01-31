@@ -5,5 +5,5 @@ void main(){
     printf("N, A, D: ");
     scanf("%d%d%d",&N,&A,&D);
     sum = (N*(A+D));
-    printf("%d",sum);
+    printf("Answer:%d",sum);
 }

@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main(){
-    int a,n,d;
+    int N,A,D;
     int sum=0;
     printf("N, A, D: ");
-    scanf("%d%d%d",&n,&a,&d);
-    sum = (n/2.0)*(2*a+(n-1)*d);
+    scanf("%d%d%d",&N,&A,&D);
+    sum = (N*(A+D));
     printf("%d",sum);
 }

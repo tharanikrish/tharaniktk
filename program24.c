@@ -15,10 +15,10 @@ for(j=i+1;j<n;j++)
 {
 if(a[i]<a[j])
 {
-temp=a[i];
+sort=a[i];
 a[i]=a[j];
-a[j]=temp;
+a[j]=sort;
 }}}
-printf("\n Sorted array is: %d",temp);
+printf("\n Sorted array is: %d",sort);
 return 0;
 }

@@ -4,7 +4,7 @@ int main()
 int i,n,a[n],max;
 printf("\n Enter the number:");
 scanf("%d",&n);
-printf("\nEnter the array of numbers:);
+printf("\nEnter the array of numbers:");
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);

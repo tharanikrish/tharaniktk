@@ -2,7 +2,7 @@
 int main()
 {
 int i,j,n,a[n],sort;
-printf("\n Enter the number:);
+printf("\n Enter the number:");
 scanf("%d",&n);
 printf("\n enter the array of numbers:");
 for(i=0;i,n;i++)

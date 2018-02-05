@@ -21,6 +21,6 @@ a[j]=sort;
 }}
 count++;
 }
-printf("\n Sorted array is: %d",sort);
+printf("\n count of the opeeration performed: %d",sort);
 return 0;
 }

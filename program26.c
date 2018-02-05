@@ -19,7 +19,7 @@ sort=a[i];
 a[i]=a[j];
 a[j]=sort;
 }}
-count++
+count++;
 }
 printf("\n Sorted array is: %d",sort);
 return 0;

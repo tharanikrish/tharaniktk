@@ -12,6 +12,6 @@ gets(str);
       count_char++;
   }
   printf("\nNumber of words in string:",count_char);
-return 0
+return 0;
   }
   

@@ -8,7 +8,7 @@ printf("\n Enter the string:");
 gets(str);
   for(i=0;str[i]=!NULL;i++)
   {
-    if(str[i]==" ")
+    if(str[i]=="\t")
       count_char++;
   }
   printf("\nNumber of words in string:",count_char);

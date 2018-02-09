@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int count_char=0,i;
+int i,len,line=0;
 char str[100];
 printf("\n Enter the string:");
-  scanf("[^\n]s",&str);
-  for(i=0;str[i];i++)
+  scanf("%[\n]s",&str);
+  len=strlen(a);
+  for(i=0;i<len;i++)
   {
     if(str[i]=='.')
-      count_char++;
+      line=line+1;
   }
-  printf("\nNumber of lines:%d",count_char);
+  printf("\nNumber of lines:%d",line);
 return 0;
   }

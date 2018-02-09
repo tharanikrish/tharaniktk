@@ -11,7 +11,7 @@ gets(str);
     if(str[i]=="\t")
       count_char++;
   }
-  printf("\nNumber of words in string:",count_char);
+  printf("\nNumber of words in string:",count_char+1);
 return 0;
   }
   

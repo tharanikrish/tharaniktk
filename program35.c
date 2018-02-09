@@ -8,7 +8,7 @@ printf("\n Enter the string:");
   len=strlen(str);
   for(i=0;i<=len;i++)
   {
-    if(str[i]>='0' && str[i]<=9)
+    if(str[i]>='0' && str[i]<='9')
       line++;
   }
   printf("\nNumber of numeric characters:%d",line);

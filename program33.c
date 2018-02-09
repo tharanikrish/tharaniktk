@@ -1,17 +1,16 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
 int count_char=0,i;
-char str[26];
+char str[100];
 printf("\n Enter the string:");
-gets(str);
+  scanf("[^\n]s",&str);
   for(i=0;str[i];i++)
   {
-    if(str[i]=='\t')
+    if(str[i]==' ')
       count_char++;
   }
-  printf("\nNumber of spaces:",count_char);
+  printf("\nNumber of spaces:%d",count_char);
 return 0;
   }
   

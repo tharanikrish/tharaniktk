@@ -8,10 +8,10 @@ printf("\n Enter the string:");
 gets(str);
   for(i=0;str[i]=!NULL;i++)
   {
-    if(str[i]==" ")
+    if((str[i]==' ')&&(str[i]=='\0'))
       count_char++;
   }
-  printf("\nNumber of words in string:",count_char+1);
+  printf("\nNumber of words in string:%d",count_char+1);
 return 0;
   }
   

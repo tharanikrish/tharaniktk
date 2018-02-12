@@ -4,8 +4,8 @@ int main()
 int i,len,line=0;
 char str[100];
 printf("\n Enter the string:");
-  scanf("%s",&str[i]);
-  len=strlen(str[i]);
+  scanf("%[\n]s",&str);
+  len=strlen(str);
   for(i=0;i<=len;i++)
   {
     if(str[i]=='.')

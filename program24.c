@@ -19,6 +19,10 @@ sort=a[i];
 a[i]=a[j];
 a[j]=sort;
 }}}
-printf("\n Sorted array is: %d",sort);
-return 0;
+  printf("\nsorted array:);
+  for(i=0;i<n;i++)
+  {
+printf("\n%d",sort);
+  }
+  return 0;
 }

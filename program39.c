@@ -10,9 +10,9 @@ for(i=0;i<10;i++)
 {
 if(a[i]>a[i+1])
 {
-a[i]=temp;
-temp=a[i+1];
-a[i+1]=a[i];
+temp=a[i];
+a[i]=a[i+1];
+a[i+1]=temp;
 }
 }
 printf("\nmaximum number is %d",a[i]);

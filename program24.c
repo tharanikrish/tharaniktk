@@ -13,7 +13,7 @@ for(i=0;i<n;i++)
 {
 for(j=i+1;j<n;j++)
 {
-if(a[i]<a[j])
+if(a[i]>a[j])
 {
 sort=a[i];
 a[i]=a[j];
@@ -22,7 +22,7 @@ a[j]=sort;
   printf("\nsorted array:");
   for(i=0;i<n;i++)
   {
-printf("\n%d",sort);
+printf("\n%d",a[i]);
   }
   return 0;
 }
